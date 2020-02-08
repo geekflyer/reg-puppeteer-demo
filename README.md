@@ -24,6 +24,7 @@ I'm working on a huge SPA(Single Page Application) project as a front-end develo
 
 We considered to introduce snapshot testing. Using this method, the actual snapshot(rendered result) will be used as the expected data in the next test. For example Jest or Ava has API for snapshot testing, however the DOM based snapshot testing can not alert breaking CSS style.
 
+
 If the snapshot testing tool detects differences, it does not mean the test is failure. It only means **we need to review the differences**.
 
 So we need a tool which:
